@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import MainBanner from '../../components/MainBanner/MainBanner';
+import MainBanner from '../../components/MainBanner';
 import NavBar from '../../components/NavBar';
+import Section1 from '../../components/Section1';
 
 const MainContainer = styled.div`
   display: flex;
@@ -13,6 +14,7 @@ function Main() {
     <MainContainer>
       <NavBar />
       <MainBanner />
+      <Section1 />
     </MainContainer>
   );
 }
