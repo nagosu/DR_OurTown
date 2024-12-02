@@ -3,6 +3,7 @@ import MainBanner from '../../components/MainBanner';
 import NavBar from '../../components/NavBar';
 import Section1 from '../../components/Section1';
 import Section2 from '../../components/Section2';
+import Section3 from '../../components/Section3';
 
 const MainContainer = styled.div`
   display: flex;
@@ -17,6 +18,7 @@ function Main() {
       <MainBanner />
       <Section1 />
       <Section2 />
+      <Section3 />
     </MainContainer>
   );
 }
