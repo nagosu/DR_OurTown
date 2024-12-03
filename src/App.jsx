@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Main from './pages/Main';
 import Second from './pages/Second';
 import Third from './pages/Third';
+import Fourth from './pages/Fourth';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Route path='/' element={<Main />} />
       <Route path='/2-1' element={<Second />} />
       <Route path='/2-2' element={<Third />} />
-      {/* <Route path='/3' element={<Fourth />} /> */}
+      <Route path='/3' element={<Fourth />} />
     </Routes>
   );
 }
