@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import third1 from '../../assets/images/third_1.png';
 import third2 from '../../assets/images/third_2.png';
 import third3 from '../../assets/images/third_3.png';
+import ContactModal from '../../components/ContactModal';
 
 const Container = styled.div`
   width: 100%;
@@ -150,6 +151,7 @@ function ThirdContent() {
           <ContactButton type='button'>문의하기</ContactButton>
         </BottomContent>
       </Content>
+      <ContactModal />
     </Container>
   );
 }
