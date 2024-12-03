@@ -3,11 +3,11 @@ import arrowRightDashedRed from '../../assets/icons/svg/arrow_right_dashed_red.s
 import section3Image1 from '../../assets/images/section3_image1.png';
 import section3Image2 from '../../assets/images/section3_image2.png';
 import section3Image3 from '../../assets/images/section3_image3.png';
-import section3Image4 from '../../assets/images/section3_image4.png';
-import section3Image5 from '../../assets/images/section3_image5.png';
-import section3Image6 from '../../assets/images/section3_image6.png';
+import section3Image4 from '../../assets/gif/section3_1.gif';
+import section3Image5 from '../../assets/gif/section3_2.gif';
+import section3Image6 from '../../assets/gif/section3_3.gif';
 import section3Image7 from '../../assets/images/section3_image7.png';
-import section3Image8 from '../../assets/images/section3_image8.png';
+import section3Image8 from '../../assets/gif/section3_4.gif';
 import deviderRed from '../../assets/icons/svg/devider_red.svg';
 
 const Section3Container = styled.div`

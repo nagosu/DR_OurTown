@@ -6,6 +6,8 @@ import section1Image3 from '../../assets/images/section1_image3.png';
 import section1Image4 from '../../assets/images/section1_image4.png';
 import section1Image5 from '../../assets/images/section1_image5.png';
 import section1Bottom from '../../assets/images/section1_bottom.png';
+import section1Gif from '../../assets/gif/section1.gif';
+import logo from '../../assets/gif/section1_logo.jpg';
 import arrowRedIcon from '../../assets/icons/svg/arrow_red.svg';
 
 const Section1Container = styled.div`
@@ -123,16 +125,34 @@ const ImageWrapper = styled.div`
 `;
 
 const ContentBottomImageWrapper = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 832px;
   height: 624px;
+`;
 
-  img {
-    width: 100%;
-    height: 100%;
-  }
+const ContentBottomImage = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+
+const ContentBottomImageGif = styled.img`
+  position: absolute;
+  width: 303.85px;
+  height: 161.78px;
+  top: 320px;
+  left: 220px;
+`;
+
+const ContentBottomLogo = styled.img`
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  top: 390px;
+  right: 175px;
+  background-color: #ffffff;
 `;
 
 const LeftRedArrow = styled.img`
@@ -202,7 +222,9 @@ function Section1() {
           </ContentTopItem>
         </ContentTopContainer>
         <ContentBottomImageWrapper>
-          <img src={section1Bottom} alt='section1_bottom' />
+          <ContentBottomImage src={section1Bottom} alt='section1_bottom' />
+          <ContentBottomImageGif src={section1Gif} alt='section1_gif' />
+          <ContentBottomLogo src={logo} alt='logo' />
         </ContentBottomImageWrapper>
         <LeftRedArrow src={arrowRedIcon} alt='left_arrow_red' />
         <RightRedArrow src={arrowRedIcon} alt='right_arrow_red' />

@@ -3,7 +3,7 @@ import section4Background from '../../assets/images/section4_background.png';
 import externalAd from '../../assets/icons/svg/external_ad.svg';
 import outdoorAd from '../../assets/icons/svg/outdoor_ad.svg';
 import tv from '../../assets/images/tv.png';
-import tvInside from '../../assets/images/tv_inside.png';
+import tvInside from '../../assets/gif/section4.gif';
 
 const Section4Container = styled.div`
   position: relative;
