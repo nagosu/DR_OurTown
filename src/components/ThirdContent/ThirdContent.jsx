@@ -22,7 +22,8 @@ const TopContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 100%;
+  width: 1280px;
+  min-width: 1280px;
   gap: 12px;
 
   button {
@@ -30,11 +31,14 @@ const TopContent = styled.div`
     font-weight: 600;
     color: #212121;
     line-height: 20px;
+    background-color: transparent;
   }
 `;
 
 const ImagesContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 280px;
   min-height: 280px;
@@ -52,7 +56,8 @@ const BottomContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 1280px;
+  min-width: 1280px;
   gap: 60px;
 `;
 

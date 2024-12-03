@@ -14,9 +14,15 @@ const NavBarContainer = styled.div`
   padding-right: 60px;
 `;
 
-const Logo = styled.img`
+const Logo = styled.button`
   width: 148px;
   height: 34px;
+  background-color: transparent;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 const MenuList = styled.ul`
@@ -33,7 +39,9 @@ const MenuItem = styled.li`
 function NavBar() {
   return (
     <NavBarContainer>
-      <Logo src={logo} alt='DR' />
+      <Logo>
+        <img src={logo} alt='logo' />
+      </Logo>
       <MenuList>
         <MenuItem>메인</MenuItem>
         <MenuItem>광고방식</MenuItem>

@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo.png';
 const Container = styled.div`
   width: 100%;
   height: 100%;
-  padding: 160px 535px 0 425px;
+  padding: 160px 0 0 0;
 `;
 
 const Content = styled.div`
@@ -13,6 +13,7 @@ const Content = styled.div`
   height: 542px;
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
 `;
 
 const LoginContainer = styled.div`

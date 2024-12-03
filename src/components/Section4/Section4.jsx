@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import section4Background from '../../assets/images/section4_background.png';
 import externalAd from '../../assets/icons/svg/external_ad.svg';
 import outdoorAd from '../../assets/icons/svg/outdoor_ad.svg';
+import arrowRedIcon from '../../assets/icons/svg/arrow_red.svg';
 import tv from '../../assets/images/tv.png';
 import tvInside from '../../assets/gif/section4.gif';
 
@@ -29,9 +30,11 @@ const Title = styled.h2`
   font-weight: 700;
   color: #212121;
   line-height: 60px;
+  white-space: nowrap;
 `;
 
 const ContentContainer = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,6 +104,19 @@ const ContentBottomContainer = styled.div`
   gap: 12px;
 `;
 
+const LeftRedArrow = styled.img`
+  position: absolute;
+  top: 135px;
+  left: 230px;
+`;
+
+const RightRedArrow = styled.img`
+  position: absolute;
+  top: 135px;
+  right: 210px;
+  transform: rotateY(180deg);
+`;
+
 const TvWrapper = styled.div`
   position: relative;
   display: flex;
@@ -111,8 +127,8 @@ const TvWrapper = styled.div`
 `;
 
 const Tv = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 1012px;
+  height: 616px;
 `;
 
 const TvInside = styled.img`
@@ -170,6 +186,8 @@ function Section4() {
             매물광고
           </TvDescription>
         </ContentBottomContainer>
+        <LeftRedArrow src={arrowRedIcon} alt='left_arrow_red' />
+        <RightRedArrow src={arrowRedIcon} alt='right_arrow_red' />
       </ContentContainer>
     </Section4Container>
   );

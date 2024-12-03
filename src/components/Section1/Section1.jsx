@@ -40,6 +40,7 @@ const TitleWrapper = styled.div`
     font-weight: 700;
     color: #212121;
     line-height: 60px;
+    white-space: nowrap;
   }
 
   h3 {
@@ -47,6 +48,7 @@ const TitleWrapper = styled.div`
     font-weight: 500;
     color: #212121;
     line-height: 32px;
+    white-space: nowrap;
   }
 `;
 
@@ -140,10 +142,10 @@ const ContentBottomImage = styled.img`
 
 const ContentBottomImageGif = styled.img`
   position: absolute;
-  width: 303.85px;
-  height: 161.78px;
-  top: 320px;
-  left: 220px;
+  width: 320px;
+  height: 185px;
+  top: 304px;
+  left: 209px;
 `;
 
 const ContentBottomLogo = styled.img`

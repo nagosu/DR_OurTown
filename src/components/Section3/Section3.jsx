@@ -17,7 +17,7 @@ const Section3Container = styled.div`
   width: 100%;
   height: 1416px;
   min-height: 1416px;
-  padding: 120px 320px 120px 320px;
+  padding: 120px 0 120px 0;
   gap: 60px;
 `;
 
@@ -32,7 +32,8 @@ const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 1281px;
+  min-width: 1281px;
   gap: 50px;
 `;
 
@@ -141,6 +142,7 @@ const ExampleRightItem = styled.div`
   align-items: flex-start;
   gap: 4px;
   width: 302px;
+  min-width: 302px;
   max-width: 302px;
   height: 100%;
 

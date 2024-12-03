@@ -19,6 +19,7 @@ const Title = styled.h2`
   font-weight: 700;
   color: #212121;
   line-height: 60px;
+  white-space: nowrap;
 `;
 
 const ContentContainer = styled.div`
